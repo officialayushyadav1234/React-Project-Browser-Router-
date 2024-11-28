@@ -1,0 +1,62 @@
+#register {
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url(https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg);
+  background-position: center;
+  background-size: contain;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#register > h1 {
+  color: whitesmoke;
+  text-shadow: 0 0 4px whitesmoke;
+}
+#register > form {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #98aab134;
+  padding: 10px;
+  margin: 500px;
+  height: 30rem;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+#register > form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+#register > form > div > label {
+  font-weight: lighter;
+}
+#register > form > div > input {
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.056);;
+  margin-top: 2px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+#register > form > div:last-of-type {
+  display: flex;
+  justify-content: center;
+  width: 34%;
+}
+#register > form > div > button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: .5px solid whitesmoke;
+  cursor: pointer;
+  background-color: #1a2b54;
+  color: white;
+  font-weight: 700px;
+}

@@ -1,0 +1,17 @@
+#about {
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url(https://wallpapercave.com/uwp/uwp4568879.webp);
+  background-position: center;
+  background-size: contain;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+}
+#about > h1 {
+  color: whitesmoke;
+  text-shadow: 0 0 5px whitesmoke;
+}

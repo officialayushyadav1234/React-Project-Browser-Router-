@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "5706",
+      "username": "Ayush Yadav",
+      "useremail": "Ayush123@gmail.com",
+      "userpassword": "Ayush@123",
+      "userphone": "7753959948"
+    },
+    {
+      "id": "6064",
+      "username": "Harsh ",
+      "useremail": "Harsh1232@gmaill.com",
+      "userpassword": "2546",
+      "userphone": "8958365241"
+    },
+    {
+      "id": "aeca",
+      "username": "Kapil Sharma",
+      "useremail": "Kapil123@gmail.com",
+      "userpassword": "1234",
+      "userphone": "9651406189"
+    },
+    {
+      "id": "a697",
+      "username": "Harshit Parmar",
+      "useremail": "Harshit123@gmail.com",
+      "userpassword": "Harshit@1234",
+      "userphone": "7756845986"
+    },
+    {
+      "id": "18ae",
+      "username": "admin",
+      "useremail": "admin@gmail.com",
+      "userpassword": "Admin@1223",
+      "userphone": "8567859645"
+    }
+  ]
+}

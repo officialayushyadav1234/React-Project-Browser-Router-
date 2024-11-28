@@ -1,0 +1,63 @@
+#login {
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url(https://wallpapercave.com/wp/wp3981540.png);
+  background-position: center;
+  background-size: contain;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#login > h1 {
+  color: whitesmoke;
+  text-shadow: 0 0 5px whitesmoke;
+}
+#login > form {
+  border: 2px solid rgba(170, 133, 82, 0.605);
+  background-color: #98aab134;
+  border-radius: 20px;
+  height: 23rem;
+  width: 450px;
+  padding: 10px;
+  margin: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+#login > form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+#login > form > div > label {
+  font-weight: lighter;
+}
+#login > form > div > input {
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.056);
+  margin-top: 5px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+#login > form > div:last-of-type {
+  display: flex;
+  justify-content: center;
+  width: 47%;
+}
+#login > form > div > button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: .5px solid whitesmoke;
+  cursor: pointer;
+  background-color: #1a2654;
+  color: rgb(236, 230, 230);
+  font-weight: 700;
+}
